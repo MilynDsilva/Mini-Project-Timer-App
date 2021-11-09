@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100;400&display=swap');
+*{
+    font-family: "Glory";
+}
+body {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+}
+.container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+    color: blueviolet;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.container h1 {
+    color: white;
+}
+#title {
+    font-size: 1.5rem;
+    
+}
+#btn, #btn1 ,#btn2{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 15px;
+    height: 20vh;
+    width: 20wh;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#btn:hover, #btn1:hover ,#btn2:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 10px;
+}
